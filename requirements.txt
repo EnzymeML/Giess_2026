@@ -2,5 +2,5 @@ catalax
 jupyter
 nmrpy
 pydantic
-pyenyzme
+pyenzyme
 pysces
