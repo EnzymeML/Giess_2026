@@ -1,0 +1,6 @@
+catalax
+jupyter
+nmrpy
+pydantic
+pyenyzme
+pysces
