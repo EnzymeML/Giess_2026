@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= guest
+$$ 2023-04-25 19:21:46.452 +0200  guest@ioc-nmr400.ioc.uni-stuttgart.de
+$$ /nmr/AV400/data/guest/nmr/Apr25-2023/970/pdata/1/outd
+$$ process /opt/topspin3.2/prog/mod/dirdata
+##$CURPLOT= <Cups-PDF>
+##$CURPRIN= <$Cups-PDF>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_H.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

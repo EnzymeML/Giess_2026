@@ -1,0 +1,96 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= guest
+$$ /nmr/AV400/data/guest/nmr/Apr20-2023/190/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-04-20 10:37:41.507 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2023-04-20 10:29:44.946 +0200,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       51 E5 C8 83 BD 07 E6 F3 A5 28 92 D0 67 EB B0 43
+       data hash MD5: 64K
+       CD 78 C2 A0 A5 D0 4D 0E 0A C9 B7 0A 53 99 65 67>)
+(   2,<2023-04-20 10:37:42.053 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       ICON-NMR User ID: guest
+       data hash MD5: 64K
+       CD 78 C2 A0 A5 D0 4D 0E 0A C9 B7 0A 53 99 65 67>)
+(   3,<2023-04-20 10:37:42.557 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       ef LB = 0.3 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       25 6A 3C BE 45 0A EA AD B3 D4 67 31 93 88 2A C9>)
+(   4,<2023-04-20 10:37:42.776 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<proc1d>,<TOPSPIN 3.2>,
+      <apk 
+       data hash MD5: 64K
+       C7 27 DD 8A 63 D1 2B 52 E8 3B E4 45 5B 6A 47 A9>)
+(   5,<2023-04-20 10:37:42.808 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<proc1d>,<TOPSPIN 3.2>,
+      <abs ABSG = 5 
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+(   6,<2023-04-20 10:37:43.116 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<dirdata>,<TOPSPIN 3.2>,
+      <wrpa from 1 190 "Apr20-2023" "/opt/topspin3.2/data/guest/nmr"
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+$$ N:/data/WIMMER_400/nmr/EW_100-2-0/190/pdata/1/auditp.txt
+(   7,<2026-01-13 10:58:32.218 +0100>,<deven>,<itc-arb35>,<dataserver>,<TopSpin 4.0.7>,
+      <INTEGRAL 2026-01-13 10:58:20.698 +0100
+       DELETE [5.434;4.678]
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+(   8,<2026-01-13 10:58:32.248 +0100>,<deven>,<itc-arb35>,<dataserver>,<TopSpin 4.0.7>,
+      <INTEGRAL 2026-01-13 10:58:25.767 +0100
+       DEFINE [5.298;4.977]
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+(   9,<2026-01-13 11:09:57.766 +0100>,<deven>,<itc-arb35>,<dataserver>,<TopSpin 4.0.7>,
+      <INTEGRAL 2026-01-13 11:09:03.297 +0100
+       DELETE [6.835;6.585]
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+(  10,<2026-01-13 11:09:57.791 +0100>,<deven>,<itc-arb35>,<dataserver>,<TopSpin 4.0.7>,
+      <INTEGRAL 2026-01-13 11:09:06.039 +0100
+       DELETE [5.298;4.977]
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+(  11,<2026-01-13 11:09:57.811 +0100>,<deven>,<itc-arb35>,<dataserver>,<TopSpin 4.0.7>,
+      <INTEGRAL 2026-01-13 11:09:08.764 +0100
+       DELETE [7.951;7.507]
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+(  12,<2026-01-13 11:09:57.846 +0100>,<deven>,<itc-arb35>,<dataserver>,<TopSpin 4.0.7>,
+      <INTEGRAL 2026-01-13 11:09:08.764 +0100
+       DELETE [7.506;6.836]
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+(  13,<2026-01-13 11:09:57.869 +0100>,<deven>,<itc-arb35>,<dataserver>,<TopSpin 4.0.7>,
+      <INTEGRAL 2026-01-13 11:09:08.764 +0100
+       DELETE [3.533;3.282]
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+(  14,<2026-01-13 11:09:57.893 +0100>,<deven>,<itc-arb35>,<dataserver>,<TopSpin 4.0.7>,
+      <INTEGRAL 2026-01-13 11:09:08.764 +0100
+       DELETE [3.281;2.604]
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+(  15,<2026-01-13 11:09:57.916 +0100>,<deven>,<itc-arb35>,<dataserver>,<TopSpin 4.0.7>,
+      <INTEGRAL 2026-01-13 11:09:08.764 +0100
+       DELETE [2.294;-0.453]
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+(  16,<2026-01-13 11:09:57.949 +0100>,<deven>,<itc-arb35>,<dataserver>,<TopSpin 4.0.7>,
+      <INTEGRAL 2026-01-13 11:09:15.446 +0100
+       DEFINE [6.939;6.484]
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+(  17,<2026-01-13 11:09:57.971 +0100>,<deven>,<itc-arb35>,<dataserver>,<TopSpin 4.0.7>,
+      <INTEGRAL 2026-01-13 11:09:24.821 +0100
+       DEFINE [5.209;5.030]
+       data hash MD5: 64K
+       D5 E0 DE 9C 6A 14 09 6A 0E 4E DE AE 08 AE 5B 17>)
+##END=
+
+$$ hash MD5
+$$ 3B 9F E6 36 96 0D 8D 17 17 00 93 25 58 A6 7A 78

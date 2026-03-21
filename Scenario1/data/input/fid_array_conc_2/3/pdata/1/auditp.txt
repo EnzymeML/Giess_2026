@@ -1,0 +1,40 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= guest
+$$ /nmr/AV400/data/guest/nmr/Apr24-2023/640/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-04-24 23:33:41.563 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2023-04-24 23:24:55.930 +0200,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       51 E5 C8 83 BD 07 E6 F3 A5 28 92 D0 67 EB B0 43
+       data hash MD5: 64K
+       D1 F1 13 0F E9 6D D4 3A 13 84 04 3C A0 7B DB 0E>)
+(   2,<2023-04-24 23:33:42.205 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       ICON-NMR User ID: guest
+       data hash MD5: 64K
+       D1 F1 13 0F E9 6D D4 3A 13 84 04 3C A0 7B DB 0E>)
+(   3,<2023-04-24 23:33:42.672 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       ef LB = 0.3 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       30 9C 5B DC B7 C5 46 BB 02 6D ED 3E 8F 4B F2 9A>)
+(   4,<2023-04-24 23:33:42.876 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<proc1d>,<TOPSPIN 3.2>,
+      <apk 
+       data hash MD5: 64K
+       A9 45 1C 19 04 93 73 BD 1A BD 07 A2 BC 8E 6E 08>)
+(   5,<2023-04-24 23:33:42.912 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<proc1d>,<TOPSPIN 3.2>,
+      <abs ABSG = 5 
+       data hash MD5: 64K
+       72 80 1B 00 FC 9B 09 54 2C 66 47 50 80 CE 03 D4>)
+(   6,<2023-04-24 23:33:43.217 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<dirdata>,<TOPSPIN 3.2>,
+      <wrpa from 1 640 "Apr24-2023" "/opt/topspin3.2/data/guest/nmr"
+       data hash MD5: 64K
+       72 80 1B 00 FC 9B 09 54 2C 66 47 50 80 CE 03 D4>)
+##END=
+
+$$ hash MD5
+$$ DA 8D 13 99 37 BB D3 E7 F3 9F C7 19 9A 60 96 08

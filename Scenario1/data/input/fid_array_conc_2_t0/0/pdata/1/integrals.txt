@@ -1,0 +1,7 @@
+   Current data set:
+   NAME =	EW_100-2-0	EXPNO =	190	PROCNO = 1
+   DU   =	N:/data/WIMMER_400/nmr
+
+   Number   Integrated Region     Integral
+     1      6.939      6.484         3.00000
+     2      5.209      5.030         0.79368

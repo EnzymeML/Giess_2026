@@ -1,0 +1,27 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= guest
+$$ /nmr/AV400/data/guest/nmr/Apr26-2023/1000/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-04-26 20:38:45.364 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2023-04-26 20:29:59.721 +0200,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       51 E5 C8 83 BD 07 E6 F3 A5 28 92 D0 67 EB B0 43
+       data hash MD5: 64K
+       76 5F CB 24 66 CC C4 50 BA 88 D4 20 84 EB 3F D7>)
+(   2,<2023-04-26 20:38:45.956 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       ICON-NMR User ID: guest
+       data hash MD5: 64K
+       76 5F CB 24 66 CC C4 50 BA 88 D4 20 84 EB 3F D7>)
+(   3,<2023-04-26 20:38:46.829 +0200>,<guest>,<ioc-nmr400.ioc.uni-stuttgart.de>,<dirdata>,<TOPSPIN 3.2>,
+      <wrpa from 1 1000 "Apr26-2023" "/opt/topspin3.2/data/guest/nmr"
+       data hash MD5: 64K
+       76 5F CB 24 66 CC C4 50 BA 88 D4 20 84 EB 3F D7>)
+##END=
+
+$$ hash MD5
+$$ 0B E7 19 A8 1F 0D C0 23 5C C6 8A BB 3E 35 C6 9A
