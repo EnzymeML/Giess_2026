@@ -1,0 +1,66 @@
+{
+  "name": "Pseudo 1st order irreversible with background",
+  "states": [
+    {
+      "name": "s1",
+      "symbol": "s1"
+    }
+  ],
+  "constants": [
+    {
+      "name": "s3",
+      "symbol": "s3"
+    },
+    {
+      "name": "s4",
+      "symbol": "s4"
+    }
+  ],
+  "odes": [
+    {
+      "equation": "-k_bkgrnd*s1 - 0.5699544576803497*k_cyc*s1*s3*s4/(0.5699544576803497*s4 + 1)",
+      "observable": true,
+      "state": "s1"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "k_cyc",
+      "symbol": "k_cyc",
+      "value": 263.0599365234375,
+      "constant": false,
+      "initial_value": 263.0599365234375,
+      "hdi": {
+        "lower": 1.0198794603347778,
+        "upper": 1580.741455078125,
+        "lower_50": 97.90641021728516,
+        "upper_50": 323.2626953125,
+        "q": 0.95
+      },
+      "prior": {
+        "low": 1.0,
+        "high": 5000.0,
+        "type": "Uniform"
+      }
+    },
+    {
+      "name": "k_bkgrnd",
+      "symbol": "k_bkgrnd",
+      "value": 0.23182722926139832,
+      "constant": false,
+      "initial_value": 0.23182722926139832,
+      "hdi": {
+        "lower": 0.11251544207334518,
+        "upper": 0.3431963324546814,
+        "lower_50": 0.19941015541553497,
+        "upper_50": 0.26658353209495544,
+        "q": 0.95
+      },
+      "prior": {
+        "low": 0.01,
+        "high": 0.5,
+        "type": "Uniform"
+      }
+    }
+  ]
+}
