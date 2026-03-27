@@ -2,7 +2,7 @@
 
 # This repository accompanies the paper Giess 2026
 
-> "FAIR NMR: acquisition, processing, and modelling of time-resolved NMR data according to the FAIR principles" 
+> "FAIR NMR: acquisition, processing, and modelling of time-resolved NMR data according to the FAIR principles"  
 
 The folder structure follows the structure of the paper.  
 Here you can find all data and Jupyter Notebooks.
