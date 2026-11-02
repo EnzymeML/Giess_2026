@@ -116,7 +116,7 @@ def write_concentrations_csv(
         The path written to.
 
     Raises:
-        KeyError: If the concentrations hold no ``"s1"`` or ``"s5"`` entry.
+        KeyError: If the concentrations hold no ``"s1"`` entry.
     """
     if concentrations is None:
         concentrations = fid_array.concentrations
@@ -126,7 +126,6 @@ def write_concentrations_csv(
     df = pd.DataFrame()
     df["t / h"] = fid_array.t
     df["[s1] / M"] = concentrations["s1"]
-    df["[s5] / M"] = concentrations["s5"]
     df.to_csv(path, index=False)
 
     return path

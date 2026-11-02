@@ -12,14 +12,14 @@
       "@type": "@id"
     }
   },
-  "@id": "enzml:EnzymeMLDocument/6e8e149f-2a61-4563-801d-9c66f2db086b",
+  "@id": "enzml:EnzymeMLDocument/b3ca747d-35d9-4779-91f1-5ded8fd97275",
   "@type": [
     "enzml:EnzymeMLDocument"
   ],
   "name": "EW_100-2: Paladium-catalyzed ring closing reaction of Dimethyl 2-(3-methyl-2-butenyl)-2-(2-propynyl)malonate using 2 equivalents of BINOL",
   "version": "2",
   "description": "m1: 5 mol % Pd loading vs. substrate, BINOL 2.56 eq (target: 2 eq); m2: 5 mol % Pd loading vs. substrate, BINOL 5.59 eq (target: 5 eq); m3: 5.49 mol % Pd loading vs. substrate, BINOL 27.96 eq (target: 33 eq)",
-  "modified": "2026-11-02T16:04:14.612662",
+  "modified": "2026-11-02T17:12:16.296460",
   "creators": [],
   "vessels": [
     {
@@ -34,7 +34,7 @@
         "name": "schema:name",
         "volume": "OBO:OBI_0002139"
       },
-      "@id": "enzml:Vessel/e2951ba2-9da0-4d9b-abbb-ecca6205ec48",
+      "@id": "enzml:Vessel/3a0e0b11-36cf-4cd6-9187-694ab188cf5d",
       "@type": [
         "enzml:Vessel",
         "OBO:OBI_0400081"
@@ -79,7 +79,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:SmallMolecule/d3e80bb6-42e3-4fe6-8b50-a308fa9c1d7b",
+      "@id": "enzml:SmallMolecule/9f6838d5-bf99-4617-8377-5e29b9e4c455",
       "@type": [
         "enzml:SmallMolecule"
       ],
@@ -112,7 +112,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:SmallMolecule/17d8d738-7d4d-4eae-afbf-7499a275d7d5",
+      "@id": "enzml:SmallMolecule/589eac4c-46e8-445b-b520-12fb9e396afa",
       "@type": [
         "enzml:SmallMolecule"
       ],
@@ -146,7 +146,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:SmallMolecule/34961972-8612-4d71-a611-410d5d37a563",
+      "@id": "enzml:SmallMolecule/72c64e3b-8756-4c57-b637-88a13925eb98",
       "@type": [
         "enzml:SmallMolecule"
       ],
@@ -173,7 +173,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Reaction/3421d040-acd7-41e5-911d-6fcd3a1e0091",
+      "@id": "enzml:Reaction/f6c7e079-3ecb-4c9b-a358-5207892efa38",
       "@type": [
         "enzml:Reaction"
       ],
@@ -190,7 +190,7 @@
             "@type": "@id"
           }
         },
-        "@id": "enzml:Equation/f38ddfd6-5e8c-44a5-bacd-a589f8896fbd",
+        "@id": "enzml:Equation/5c240f42-e727-474f-b46e-8701d4815cd3",
         "@type": [
           "enzml:Equation"
         ],
@@ -208,7 +208,7 @@
                 "@type": "@id"
               }
             },
-            "@id": "enzml:Variable/25b50027-6ab1-4e81-ae1e-022b680d8125",
+            "@id": "enzml:Variable/ac66b41b-4d1d-42bc-9564-a05c56be4a51",
             "@type": [
               "enzml:Variable"
             ],
@@ -226,7 +226,7 @@
                 "@type": "@id"
               }
             },
-            "@id": "enzml:Variable/0ddd0415-2563-47f6-b470-7adf79d57d95",
+            "@id": "enzml:Variable/5479e4c4-fc26-4a0f-bbeb-a0659770cef5",
             "@type": [
               "enzml:Variable"
             ],
@@ -244,7 +244,7 @@
                 "@type": "@id"
               }
             },
-            "@id": "enzml:Variable/00330090-ccd9-486c-99fd-b5dc1fbc57e2",
+            "@id": "enzml:Variable/cc368785-d9b3-4a57-9794-47c7e11deaf1",
             "@type": [
               "enzml:Variable"
             ],
@@ -265,7 +265,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:ReactionElement/8b0d3c50-8327-4bfa-bb84-cb6597da128b",
+          "@id": "enzml:ReactionElement/5a0684a0-8905-4500-8a91-fd4350839896",
           "@type": [
             "enzml:ReactionElement"
           ],
@@ -284,7 +284,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:ReactionElement/a344e6e6-7163-4eaa-9d4e-f29b59c2b6a4",
+          "@id": "enzml:ReactionElement/9f5eae84-8dc1-4a37-bc2c-66e10f334538",
           "@type": [
             "enzml:ReactionElement"
           ],
@@ -303,7 +303,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:ModifierElement/ad595d7c-4629-4ded-96cb-46726affa2a5",
+          "@id": "enzml:ModifierElement/750ffffb-b6cc-4908-b46d-e14a524b42af",
           "@type": [
             "enzml:ModifierElement"
           ],
@@ -320,7 +320,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:ModifierElement/2cae7942-99bc-41bc-a726-50a79821dd48",
+          "@id": "enzml:ModifierElement/36c9f290-ffce-4bc0-8316-bfa71e846460",
           "@type": [
             "enzml:ModifierElement"
           ],
@@ -337,7 +337,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:ModifierElement/ebd41d11-4b14-4b3c-84cc-713957283fd9",
+          "@id": "enzml:ModifierElement/e256ce4e-6063-4ddc-8d41-8dfdc72d3f51",
           "@type": [
             "enzml:ModifierElement"
           ],
@@ -361,7 +361,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Measurement/75eadbde-c973-4987-9ce3-2223e9553353",
+      "@id": "enzml:Measurement/02da034a-ea70-4b56-90b6-4173e0579810",
       "@type": [
         "enzml:Measurement"
       ],
@@ -377,7 +377,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/db7d6e8d-5c91-4627-8da5-c6907a0f2ce0",
+          "@id": "enzml:MeasurementData/67ec8a91-972c-4e6b-87fd-dea8fd8c141e",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -444,7 +444,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/978dcae9-b528-41b4-afc3-75f5ed83ea20",
+          "@id": "enzml:MeasurementData/cd0c1e7a-c789-40d7-ba7a-7df51b2e8067",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -483,7 +483,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/58617ba9-d47b-40b2-9685-5c87e84680b3",
+          "@id": "enzml:MeasurementData/d08a81ef-f22a-4619-854d-418c334b2e33",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -542,7 +542,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Measurement/f5665b8b-9995-427c-a71b-95f1072f1cf5",
+      "@id": "enzml:Measurement/68db84e6-1dcc-4adf-8e06-0d01613c8fb4",
       "@type": [
         "enzml:Measurement"
       ],
@@ -558,7 +558,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/ba1c72be-933b-4df8-a9e6-bcf793fd40ff",
+          "@id": "enzml:MeasurementData/bb0c0546-22fb-46b6-8aed-f97758619f9e",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -629,7 +629,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/6a835f0f-26d7-41ee-9be0-fd1dadebc0aa",
+          "@id": "enzml:MeasurementData/a9088a0f-ae41-4e40-834d-b4a82c0fca1e",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -668,7 +668,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/3d9ad966-dbbd-48c5-abfd-c9fa14168a0b",
+          "@id": "enzml:MeasurementData/8e64a5c1-351b-4b9e-b433-70259c9e35b0",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -727,7 +727,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Measurement/89f680e4-49b5-4184-9563-36e953b1d70d",
+      "@id": "enzml:Measurement/e5b147f7-0bba-43c8-812c-062391e1906c",
       "@type": [
         "enzml:Measurement"
       ],
@@ -743,7 +743,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/e3ac3762-feae-4de2-9497-86e3d542db71",
+          "@id": "enzml:MeasurementData/ed2a7790-6837-45e9-b70d-9245ab2d7b4c",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -808,7 +808,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/b6679730-9ede-4f7b-a5c9-f3ae4dea2b66",
+          "@id": "enzml:MeasurementData/dca4c589-8eab-4b79-8f64-8f97b446034b",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -847,7 +847,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/e6177822-5bf0-422e-a8aa-3766072ed187",
+          "@id": "enzml:MeasurementData/c33a34fb-2124-4fde-8204-912bc8f88c85",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -905,7 +905,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Equation/6df8b9ce-4100-4977-be72-8bd14fcb2b85",
+      "@id": "enzml:Equation/e7ffd6d1-469e-4970-8acf-24eea578dec1",
       "@type": [
         "enzml:Equation"
       ],
@@ -926,7 +926,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Parameter/70bd77c3-57b1-42ba-9a69-9ceba55182c2",
+      "@id": "enzml:Parameter/a8b2d531-f5ae-452e-8662-ba886125528f",
       "@type": [
         "enzml:Parameter"
       ],
@@ -950,7 +950,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Parameter/c336d13d-ded4-4a58-902a-c476e725675b",
+      "@id": "enzml:Parameter/7c378f6f-8b3f-4688-8a17-66eb9887bed1",
       "@type": [
         "enzml:Parameter"
       ],

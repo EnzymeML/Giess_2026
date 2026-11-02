@@ -214,8 +214,9 @@ def calculate_educt_concentration_from_integrals(
         measurement_id: ID of the measurement to read that concentration from.
 
     Returns:
-        A dict with the mesitylene integrals under ``"s5"`` and the educt
-        concentrations in mol/l under ``"s1"``, both in FID order.
+        A dict with the educt concentrations in mol/l under ``"s1"``, in FID order.
+        The mesitylene integrals are not returned: they are not concentrations, and
+        the standard's concentration is its prepared value.
 
     Raises:
         ValueError: If a FID carries neither exactly three ranges nor the mesitylene
@@ -223,12 +224,11 @@ def calculate_educt_concentration_from_integrals(
     """
     c_mesitylene = standard_concentration(enzml_doc, measurement_id)
 
-    concentrations = {"s5": [], "s1": []}
+    concentrations = {"s1": []}
     for fid in fid_array.get_fids():
         integrals = integrals_dict[fid.id]
         if len(integrals) == 1:
             # Educt fully consumed: standard picked, no educt ranges to integrate.
-            concentrations["s5"].append(integrals[0])
             concentrations["s1"].append(0.0)
             continue
         if len(integrals) != 3:
@@ -238,7 +238,6 @@ def calculate_educt_concentration_from_integrals(
                 f"range alone where the educt is fully consumed."
             )
         mesitylene_integral, doublet1_integral, doublet2_integral = integrals
-        concentrations["s5"].append(mesitylene_integral)
         concentrations["s1"].append(
             calculate_c_from_integrals(
                 c_mesitylene=c_mesitylene,
