@@ -22,7 +22,7 @@ Each cell will automatically run from top to bottom. When a code cell was run a 
 
 ### Locally
 
-To run the Jupyter Notebooks locally, you need to have Python installed on your computer.
+To run the Jupyter Notebooks locally, you need to have Python 3.12 or 3.13 installed on your computer.
 
 You can install the required packages using pip. Open a terminal and navigate to the folder where you have cloned this repository, then run:
 
