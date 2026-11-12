@@ -6,7 +6,7 @@ matplotlib==3.11.2
 nmrpy
 numpy==2.5.4
 numpyro==0.19.0
-pandas==2.2.3
+pandas==2.3.3
 pydantic==2.14.1
 pyenzyme==2.3.0
 pysces==1.2.3
