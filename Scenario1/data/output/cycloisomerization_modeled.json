@@ -19,6 +19,7 @@
   "name": "EW_100-2: Paladium-catalyzed ring closing reaction of Dimethyl 2-(3-methyl-2-butenyl)-2-(2-propynyl)malonate using 2 equivalents of BINOL",
   "version": "2",
   "description": "m1: 5 mol % Pd loading vs. substrate, BINOL 2.56 eq (target: 2 eq); m2: 5 mol % Pd loading vs. substrate, BINOL 5.59 eq (target: 5 eq); m3: 5.49 mol % Pd loading vs. substrate, BINOL 27.96 eq (target: 33 eq)",
+  "created": "2025-05-27T16:27:40.186749",
   "modified": "2026-11-02T17:12:16.296460",
   "creators": [],
   "vessels": [
