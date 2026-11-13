@@ -20,6 +20,7 @@
   "version": "2",
   "description": "m1: 5 mol % Pd loading vs. substrate, BINOL 2.56 eq (target: 2 eq); m2: 5 mol % Pd loading vs. substrate, BINOL 5.59 eq (target: 5 eq); m3: 5.49 mol % Pd loading vs. substrate, BINOL 27.96 eq (target: 33 eq)",
   "created": "2025-05-27T16:27:40.186749",
+  "modified": "2025-05-27T16:27:40.329630",
   "creators": [],
   "vessels": [
     {
@@ -483,7 +484,7 @@
           ],
           "species_id": "s1",
           "prepared": 0.11986,
-          "initial": 0.0,
+          "initial": null,
           "data_unit": {
             "id": null,
             "name": "mole / litre",
@@ -584,7 +585,7 @@
           ],
           "species_id": "s3",
           "prepared": 0.005994,
-          "initial": 0.005994,
+          "initial": null,
           "data_unit": {
             "id": null,
             "name": "mole / litre",
@@ -623,7 +624,7 @@
           ],
           "species_id": "s4",
           "prepared": 0.01537,
-          "initial": 0.01537,
+          "initial": null,
           "data_unit": {
             "id": null,
             "name": "mole / litre",
@@ -662,7 +663,7 @@
           ],
           "species_id": "s5",
           "prepared": 0.17472,
-          "initial": 0.0,
+          "initial": null,
           "data_unit": {
             "id": null,
             "name": "mole / litre",
@@ -701,7 +702,7 @@
           ],
           "species_id": "s6",
           "prepared": 5.644682115270349e-06,
-          "initial": 0.0,
+          "initial": null,
           "data_unit": {
             "id": null,
             "name": "mole / litre",

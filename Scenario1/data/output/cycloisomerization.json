@@ -12,7 +12,7 @@
       "@type": "@id"
     }
   },
-  "@id": "enzml:EnzymeMLDocument/cbf505d6-37cb-4871-a61b-4d965327d32d",
+  "@id": "enzml:EnzymeMLDocument/793bfe30-db4d-43d7-9e5b-bf998e5ce8f3",
   "@type": [
     "enzml:EnzymeMLDocument"
   ],
@@ -20,7 +20,7 @@
   "version": "2",
   "description": "m1: 5 mol % Pd loading vs. substrate, BINOL 2.56 eq (target: 2 eq); m2: 5 mol % Pd loading vs. substrate, BINOL 5.59 eq (target: 5 eq); m3: 5.49 mol % Pd loading vs. substrate, BINOL 27.96 eq (target: 33 eq)",
   "created": "2025-05-27T16:27:40.186749",
-  "modified": "2026-11-02T17:12:16.296460",
+  "modified": "2026-08-12T13:00:29.911213",
   "creators": [],
   "vessels": [
     {
@@ -35,7 +35,7 @@
         "name": "schema:name",
         "volume": "OBO:OBI_0002139"
       },
-      "@id": "enzml:Vessel/4631e87f-eb64-40ab-b93a-af95efce1eef",
+      "@id": "enzml:Vessel/e9d15579-7772-49ab-8e8a-e7a33601d3ed",
       "@type": [
         "enzml:Vessel",
         "OBO:OBI_0400081"
@@ -80,7 +80,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:SmallMolecule/009a4b40-a4bc-4f52-9955-33e5912bc7cb",
+      "@id": "enzml:SmallMolecule/fb1418a0-5021-4a1c-aa0e-b15a982b98c8",
       "@type": [
         "enzml:SmallMolecule"
       ],
@@ -113,7 +113,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:SmallMolecule/6523b98d-bdf7-4ef1-a86c-1fc294d76ed9",
+      "@id": "enzml:SmallMolecule/6480f983-dda4-4f3b-a5d1-cca22ff8fdb6",
       "@type": [
         "enzml:SmallMolecule"
       ],
@@ -146,7 +146,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:SmallMolecule/fe5913fe-271a-4e63-a007-c02eb73eefd0",
+      "@id": "enzml:SmallMolecule/9068bea1-b4a8-4994-a254-90228d29b9d0",
       "@type": [
         "enzml:SmallMolecule"
       ],
@@ -180,7 +180,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:SmallMolecule/2ab6c750-b9c3-43dc-8919-7becb5539d7a",
+      "@id": "enzml:SmallMolecule/54d597e3-08a6-48a2-a1ee-c7c146e0f51c",
       "@type": [
         "enzml:SmallMolecule"
       ],
@@ -214,7 +214,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:SmallMolecule/ebce0686-a8c7-4fca-835f-563a4abcf78a",
+      "@id": "enzml:SmallMolecule/1100dfaf-6b5f-40dd-8bb7-cf79f5257c5a",
       "@type": [
         "enzml:SmallMolecule"
       ],
@@ -248,7 +248,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:SmallMolecule/360b6e5e-bb76-4f50-9e97-b1ea86aadea3",
+      "@id": "enzml:SmallMolecule/06afdac7-be06-4dc4-a167-cdc25b5d6b36",
       "@type": [
         "enzml:SmallMolecule"
       ],
@@ -274,7 +274,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Reaction/d4284aae-761c-4fc3-a2c4-c4244c743f99",
+      "@id": "enzml:Reaction/ecbcb728-23b8-4c50-899d-9e85e7b6190a",
       "@type": [
         "enzml:Reaction"
       ],
@@ -291,7 +291,7 @@
             "@type": "@id"
           }
         },
-        "@id": "enzml:Equation/c82cb078-c45b-42af-87f5-311206552639",
+        "@id": "enzml:Equation/d3ada349-80a8-4a4b-9344-3c68065019fb",
         "@type": [
           "enzml:Equation"
         ],
@@ -309,7 +309,7 @@
                 "@type": "@id"
               }
             },
-            "@id": "enzml:Variable/9374b085-c234-404b-97f5-4346792aaa57",
+            "@id": "enzml:Variable/e97aa523-9738-4751-82f3-a3b97124584e",
             "@type": [
               "enzml:Variable"
             ],
@@ -327,7 +327,7 @@
                 "@type": "@id"
               }
             },
-            "@id": "enzml:Variable/35dcb905-b67c-4377-b5db-1e6eb18a9210",
+            "@id": "enzml:Variable/2b94d209-c3a6-4d44-884a-7efa6890ae6f",
             "@type": [
               "enzml:Variable"
             ],
@@ -345,7 +345,7 @@
                 "@type": "@id"
               }
             },
-            "@id": "enzml:Variable/54597c7e-36c1-431d-9556-a934c2611901",
+            "@id": "enzml:Variable/600ef765-7b5c-4c61-8a43-3ac6515e13ab",
             "@type": [
               "enzml:Variable"
             ],
@@ -366,7 +366,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:ReactionElement/e46ba434-c837-49ce-ae66-d5a181b634f6",
+          "@id": "enzml:ReactionElement/4b50c976-7abd-463f-afce-ca0c09bfca19",
           "@type": [
             "enzml:ReactionElement"
           ],
@@ -385,7 +385,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:ReactionElement/86813256-41cb-4540-b5ea-2078edf43395",
+          "@id": "enzml:ReactionElement/3f11c10f-e26c-4a21-8947-1896a7381f92",
           "@type": [
             "enzml:ReactionElement"
           ],
@@ -404,7 +404,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:ModifierElement/e026429c-fe36-463b-8d05-e4fb7a1499f5",
+          "@id": "enzml:ModifierElement/1adc0b96-40a4-4ddd-b787-cd8ff5dcf1c7",
           "@type": [
             "enzml:ModifierElement"
           ],
@@ -421,7 +421,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:ModifierElement/96c4fc3d-b3d1-40c6-81ed-e12a083bf5e6",
+          "@id": "enzml:ModifierElement/6e2c5de2-b2d8-467c-8345-18cd326b8289",
           "@type": [
             "enzml:ModifierElement"
           ],
@@ -438,7 +438,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:ModifierElement/bef23283-d3a5-4e81-8842-fea1daa67866",
+          "@id": "enzml:ModifierElement/d4c0f6b8-ded4-4953-97ba-4de6777bf722",
           "@type": [
             "enzml:ModifierElement"
           ],
@@ -462,7 +462,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Measurement/a88226b0-358b-4d88-8b21-6bd7f2d5e7f1",
+      "@id": "enzml:Measurement/7e21d4d8-7e9d-4dfa-baf4-3472b0db24a8",
       "@type": [
         "enzml:Measurement"
       ],
@@ -478,13 +478,13 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/aa692e9d-e8f5-4a0d-a3a4-3de9d7299625",
+          "@id": "enzml:MeasurementData/ebac8b61-6db2-4554-83b1-1384e5828407",
           "@type": [
             "enzml:MeasurementData"
           ],
           "species_id": "s1",
           "prepared": 0.11986,
-          "initial": 0.126173649,
+          "initial": 0.1261736485600825,
           "data_unit": {
             "id": null,
             "name": "mole / litre",
@@ -504,13 +504,13 @@
             ]
           },
           "data": [
-            0.126173649,
-            0.07108820135475948,
-            0.05168971020426142,
-            0.03251312079779585,
-            0.013712265577784736,
-            0.0008579766706470629,
-            -0.000850778606289921
+            0.1261736485600825,
+            0.07108817474055762,
+            0.0516896853720776,
+            0.03251309066922674,
+            0.01371224721417935,
+            0.0008579718084669261,
+            -0.0008507832587764108
           ],
           "time": [
             0.0,
@@ -545,12 +545,12 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/05519461-e603-4810-a7cf-3e5eeed10b43",
+          "@id": "enzml:MeasurementData/f40a4521-9d7f-425f-a9de-6ea45bcf7257",
           "@type": [
             "enzml:MeasurementData"
           ],
           "species_id": "s2",
-          "initial": 0.0,
+          "initial": null,
           "data_unit": {
             "id": null,
             "name": "mole / litre",
@@ -595,7 +595,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/181d79d6-c687-4412-82bf-f9027189a61a",
+          "@id": "enzml:MeasurementData/ee0ff411-f330-4a92-8868-4bf391c98c38",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -634,7 +634,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/04616811-bc02-4dcb-833d-d526ff704236",
+          "@id": "enzml:MeasurementData/18830044-36d4-4a44-ae13-bdbd73c0e2bb",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -673,7 +673,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/6efdeccf-fd6d-45e4-9340-1450615cf953",
+          "@id": "enzml:MeasurementData/1c9c2416-4bd6-4be8-ae03-9d320340d4d3",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -712,7 +712,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/76ba9fd4-0359-4339-99d8-28d69a5e7a97",
+          "@id": "enzml:MeasurementData/916c93f0-ab30-4c2d-b6b1-76452fec768f",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -771,7 +771,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Measurement/c9b3c105-7145-46d9-bdf0-38fc86db1f0a",
+      "@id": "enzml:Measurement/fda63bcc-5a5a-4143-9cec-cd9d9544f80f",
       "@type": [
         "enzml:Measurement"
       ],
@@ -787,13 +787,13 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/f9b78eb0-e29a-4deb-98f8-fc4f07f72337",
+          "@id": "enzml:MeasurementData/212054a2-57a9-4eb2-83d0-9c7471ab0378",
           "@type": [
             "enzml:MeasurementData"
           ],
           "species_id": "s1",
           "prepared": 0.11986,
-          "initial": 0.103302994,
+          "initial": 0.11862823512914271,
           "data_unit": {
             "id": null,
             "name": "mole / litre",
@@ -813,15 +813,15 @@
             ]
           },
           "data": [
-            0.103302994,
-            0.07162374322310457,
-            0.04551023923088918,
-            0.024958365462833483,
-            0.00299447682395795,
-            0.00017781579870407987,
-            0.0008623998704253445,
-            0.000853497649444826,
-            0.0002952676921767466
+            0.11862823512914271,
+            0.08247298863570841,
+            0.05266993421208282,
+            0.02921429025934847,
+            0.004147173240511668,
+            0.0009325472420154465,
+            0.001713855862063008,
+            0.001703696520188849,
+            0.001066593774242781
           ],
           "time": [
             0.0,
@@ -858,11 +858,12 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/cb4f3ab0-563c-4901-8e5b-756ba306a969",
+          "@id": "enzml:MeasurementData/7ed81bb8-e0e4-4ced-9636-0c5078962d7c",
           "@type": [
             "enzml:MeasurementData"
           ],
           "species_id": "s2",
+          "initial": null,
           "data_unit": {
             "id": null,
             "name": "mole / litre",
@@ -907,7 +908,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/3535578f-55ff-43ba-9327-d318bc35ee90",
+          "@id": "enzml:MeasurementData/e7a76a7a-5e7e-4ee0-a559-152ee9a397e9",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -946,7 +947,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/b9ae99d3-2104-45e6-8976-68b6fad7518a",
+          "@id": "enzml:MeasurementData/36e4c601-0cad-4ecc-b79d-24025d130528",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -985,7 +986,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/864e8582-f018-4330-aea3-e49d04831aae",
+          "@id": "enzml:MeasurementData/72f82735-8276-49e7-99b7-a1db4445ab14",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -1024,7 +1025,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/b9a6c9b8-7b0e-449d-8cd5-e2ac3c8d7848",
+          "@id": "enzml:MeasurementData/7d198d52-8e7c-459f-abbe-45403f30ee21",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -1083,7 +1084,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Measurement/61d237a9-c58b-4ab9-92e9-9448d1291d6e",
+      "@id": "enzml:Measurement/cde40d36-22b4-45e7-adb9-c8d1b169caa7",
       "@type": [
         "enzml:Measurement"
       ],
@@ -1099,13 +1100,13 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/7086a5b0-c68b-4316-baa1-abe229328bc3",
+          "@id": "enzml:MeasurementData/92ed867b-6e91-4cdc-b072-804c08f69607",
           "@type": [
             "enzml:MeasurementData"
           ],
           "species_id": "s1",
           "prepared": 0.12003,
-          "initial": 0.13011985222225847,
+          "initial": 0.1301198525366324,
           "data_unit": {
             "id": null,
             "name": "mole / litre",
@@ -1125,12 +1126,12 @@
             ]
           },
           "data": [
-            0.13011985222225847,
-            0.058089984727359975,
-            -2.0974065153001042e-06,
-            -2.4984292222004004e-06,
-            -2.8777673002997745e-06,
-            -2.9987885408000806e-06
+            0.1301198525366324,
+            0.05808998485719159,
+            -2.0974065153001e-06,
+            -2.4984292222004e-06,
+            -2.8777673002998e-06,
+            -2.9987885408001e-06
           ],
           "time": [
             0.0,
@@ -1164,11 +1165,12 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/a294869c-23a7-47dd-bdd4-bb61255bc8f7",
+          "@id": "enzml:MeasurementData/dad098da-63d6-4ceb-845a-21821f2534d7",
           "@type": [
             "enzml:MeasurementData"
           ],
           "species_id": "s2",
+          "initial": null,
           "data_unit": {
             "id": null,
             "name": "mole / litre",
@@ -1213,7 +1215,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/e4df9970-2a5a-438f-b3a0-58da180117e2",
+          "@id": "enzml:MeasurementData/56544ed0-38a0-4ebb-bf87-9e34b284f05b",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -1252,7 +1254,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/7a2fdf5d-4d22-43bd-8d3e-5e2f54e63f44",
+          "@id": "enzml:MeasurementData/c901df02-27f8-4c9a-b791-155c659835a1",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -1291,7 +1293,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/be542db9-5a2f-4617-9484-b3e86bfcdb75",
+          "@id": "enzml:MeasurementData/a7043e06-f484-4d64-ad1d-d9d5d7e560c7",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -1330,7 +1332,7 @@
               "@type": "@id"
             }
           },
-          "@id": "enzml:MeasurementData/41d89969-0530-4b35-b10e-889ca9e95794",
+          "@id": "enzml:MeasurementData/9c65182a-d31b-4a19-a93a-a1d87ba4d81e",
           "@type": [
             "enzml:MeasurementData"
           ],
@@ -1389,7 +1391,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Parameter/0d501829-1c5f-4646-a205-8b6913dadfea",
+      "@id": "enzml:Parameter/011e97fd-7f9a-4b58-9f10-a98a143012b0",
       "@type": [
         "enzml:Parameter"
       ],
@@ -1410,7 +1412,7 @@
           "@type": "@id"
         }
       },
-      "@id": "enzml:Parameter/c76f3560-4ee9-43ef-9087-7369bce8c33f",
+      "@id": "enzml:Parameter/1d47884b-5cd9-4b40-a7fe-733103cf2d65",
       "@type": [
         "enzml:Parameter"
       ],

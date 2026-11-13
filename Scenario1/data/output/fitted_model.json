@@ -25,40 +25,40 @@
   ],
   "parameters": [
     {
-      "name": "k_bkgrnd",
-      "symbol": "k_bkgrnd",
-      "value": 0.22499863803386688,
-      "constant": false,
-      "initial_value": 0.22499863803386688,
-      "hdi": {
-        "lower": 0.20431046187877655,
-        "upper": 0.2442549169063568,
-        "lower_50": 0.21915389597415924,
-        "upper_50": 0.23208697140216827,
-        "q": 0.95
-      },
-      "prior": {
-        "low": 0.01,
-        "high": 0.5,
-        "type": "Uniform"
-      }
-    },
-    {
       "name": "k_cyc",
       "symbol": "k_cyc",
-      "value": 296.2322998046875,
+      "value": 330.619140625,
       "constant": false,
-      "initial_value": 296.2322998046875,
+      "initial_value": 330.619140625,
       "hdi": {
-        "lower": 199.52235412597656,
-        "upper": 418.41778564453125,
-        "lower_50": 260.1808166503906,
-        "upper_50": 320.5670166015625,
+        "lower": 208.53485107421875,
+        "upper": 471.47412109375,
+        "lower_50": 289.9966125488281,
+        "upper_50": 362.96893310546875,
         "q": 0.95
       },
       "prior": {
         "low": 1.0,
         "high": 5000.0,
+        "type": "Uniform"
+      }
+    },
+    {
+      "name": "k_bkgrnd",
+      "symbol": "k_bkgrnd",
+      "value": 0.22101593017578125,
+      "constant": false,
+      "initial_value": 0.22101593017578125,
+      "hdi": {
+        "lower": 0.19642086327075958,
+        "upper": 0.2446565330028534,
+        "lower_50": 0.2140141725540161,
+        "upper_50": 0.22941875457763672,
+        "q": 0.95
+      },
+      "prior": {
+        "low": 0.01,
+        "high": 0.5,
         "type": "Uniform"
       }
     }
