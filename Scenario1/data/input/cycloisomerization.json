@@ -533,7 +533,7 @@
             "enzml:MeasurementData"
           ],
           "species_id": "s2",
-          "initial": 0.0,
+          "initial": null,
           "data_unit": {
             "id": null,
             "name": "mole / litre",
