@@ -2,7 +2,7 @@
   "datetime_created": "2026-11-02T17:12:02.513248",
   "datetime_modified": "2026-11-02T17:12:16.808959",
   "experiment": {
-    "name": "EW_100-2: Paladium-catalyzed ring closing reaction of Dimethyl 2-(3-methyl-2-butenyl)-2-(2-propynyl)malonate using 2 equivalents of BINOL",
+    "name": "EW_100: Palladium-catalyzed ring closing reaction of Dimethyl 2-(3-methyl-2-butenyl)-2-(2-propynyl)malonate using 2, 5 and 33 equivalents of BINOL",
     "fid_array": [
       {
         "raw_data": [
