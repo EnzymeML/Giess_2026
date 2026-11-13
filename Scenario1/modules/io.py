@@ -14,6 +14,7 @@ figures, where the context is noise — and has to be asked for explicitly.
 from __future__ import annotations
 
 import json
+from datetime import datetime
 from pathlib import Path
 from typing import TYPE_CHECKING, Any
 
@@ -83,6 +84,13 @@ def save_data_model(
         The path written to.
     """
     path = Path(directory) / f"{_measurement_name(fid_array, measurement_id)}_data_model.json"
+
+    # Writing the file is the modification NMRPy's own save_data_model() records;
+    # reading fid_array.data_model no longer stamps it.
+    now = datetime.now().isoformat()
+    fid_array.data_model.datetime_modified = now
+    if not fid_array.data_model.datetime_created:
+        fid_array.data_model.datetime_created = now
 
     if strip_ld:
         data_model_dict = strip_json_ld(json.loads(fid_array.data_model.model_dump_json()))
