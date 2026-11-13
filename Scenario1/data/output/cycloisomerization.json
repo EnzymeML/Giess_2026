@@ -467,7 +467,7 @@
         "enzml:Measurement"
       ],
       "id": "m1",
-      "name": "S-Bionol 2mg Pd(PCy3)2 2mg - C6D6 - 80C",
+      "name": "S-BINOL 2mg Pd(PCy3)2 2mg - C6D6 - 80C",
       "species_data": [
         {
           "@context": {
@@ -776,7 +776,7 @@
         "enzml:Measurement"
       ],
       "id": "m2",
-      "name": "S-Bionol 2mg Pd(PCy3)2 5mg - C6D6 - 80C",
+      "name": "S-BINOL 2mg Pd(PCy3)2 5mg - C6D6 - 80C",
       "species_data": [
         {
           "@context": {
@@ -1089,7 +1089,7 @@
         "enzml:Measurement"
       ],
       "id": "m3",
-      "name": "S-Bionol 2mg Pd(PCy3)2 33mg - C6D6 - 80C",
+      "name": "S-BINOL 2mg Pd(PCy3)2 33mg - C6D6 - 80C",
       "species_data": [
         {
           "@context": {
