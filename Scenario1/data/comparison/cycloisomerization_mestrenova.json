@@ -21,7 +21,44 @@
   "description": "m1: 5 mol % Pd loading vs. substrate, BINOL 2.56 eq (target: 2 eq); m2: 5 mol % Pd loading vs. substrate, BINOL 5.59 eq (target: 5 eq); m3: 5.49 mol % Pd loading vs. substrate, BINOL 27.96 eq (target: 33 eq)",
   "created": "2025-05-27T16:27:40.186749",
   "modified": "2026-01-13T09:40:11.339031",
-  "creators": [],
+  "creators": [
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "given_name": "schema:givenName",
+        "family_name": "schema:familyName",
+        "mail": "schema:email"
+      },
+      "@id": "enzml:Creator/2c8e6334-1528-46d8-abed-4931e07ac4e9",
+      "@type": [
+        "enzml:Creator",
+        "schema:person"
+      ],
+      "given_name": "Erik",
+      "family_name": "Wimmer",
+      "mail": "erik.wimmer@itc.uni-stuttgart.de"
+    },
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "given_name": "schema:givenName",
+        "family_name": "schema:familyName",
+        "mail": "schema:email"
+      },
+      "@id": "enzml:Creator/e8d489cc-bb39-43aa-8327-be2e81e55994",
+      "@type": [
+        "enzml:Creator",
+        "schema:person"
+      ],
+      "given_name": "Torsten",
+      "family_name": "Giess",
+      "mail": "torsten.giess@ibtb.uni-stuttgart.de"
+    }
+  ],
   "vessels": [
     {
       "@context": {
