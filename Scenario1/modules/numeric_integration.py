@@ -13,10 +13,9 @@ lost by that: the per-line deconvolution integrals were summed back together for
 concentration calculation anyway.
 
 Three quadrature rules are provided. They are numerically interchangeable on data this
-densely sampled (≤0.1% apart once baseline-corrected); the accuracy comes from
+densely sampled (within 0.2 % once baseline-corrected); the accuracy comes from
 :func:`local_linear_baseline`, not from the rule. Simpson's rule is the method selected
-for the final results. See ``integration_summary.md`` and ``quadrature_rule_spread.md``
-for the full methodology and the comparison numbers.
+for the final results.
 """
 
 from __future__ import annotations
@@ -88,7 +87,7 @@ def local_linear_baseline(x: np.ndarray, y: np.ndarray, edge_points: int = EDGE_
 
     Global baseline correction (``FidArray.baseline_correct_fids()``) removes broad roll
     and offset across the whole spectrum, but does not guarantee the baseline is exactly
-    zero under every individual multiplet — residual pedestal from apodisation ringing or
+    zero under every individual multiplet — residual pedestal from apodization ringing or
     overlapping peak tails can remain locally. This is what standard NMR integration
     tools (MestReNova, TopSpin, ...) correct for by default whenever a region is
     integrated.

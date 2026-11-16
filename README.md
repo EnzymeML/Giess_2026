@@ -7,6 +7,26 @@
 The folder structure follows the structure of the paper.  
 Here you can find all data and Jupyter Notebooks.
 
+## Contents
+
+**Scenario1**: <sup>1</sup>H-NMR kinetic analysis of a Pd(0)-catalyzed cycloisomerization
+
+- `cycloisomerization_analysis.ipynb`: processing of the raw NMR data with NMRPy
+- `cycloisomerization_modeling.ipynb`: kinetic modeling of the resulting time courses
+- `modules/`: helper functions used by the analysis notebook
+- `data/input/`: raw Bruker FIDs and the EnzymeML template
+- `data/output/`: the shipped result (EnzymeML documents, fitted model, concentration tables as CSV, NMRPy data models)
+- `data/state/`: saved NMRPy states of the three measurements
+- `data/comparison/`: the same time courses integrated with MestReNova, and their fit
+- `data/run/`: created when the notebooks are run; holds their results and is not part of the repository
+
+**Scenario2**: <sup>31</sup>P-NMR kinetic analysis of an enzymatic cascade reaction
+
+- `cascade_analysis.ipynb`: processing of the raw NMR data with NMRPy
+- `cascade_fit.ipynb`: kinetic modeling of the resulting time courses
+- `data/input/`: raw Varian FIDs and the EnzymeML document
+- `data/output/`: the EnzymeML document with the concentration time courses
+
 ## Using the Jupyter Notebooks
 
 ### With Binder

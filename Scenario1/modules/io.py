@@ -5,7 +5,7 @@ JSON and a CSV of the derived concentrations — and repeatedly render EnzymeML 
 models to the notebook output with ``rich``. Both are collected here so the notebooks
 carry call sites rather than definitions.
 
-On JSON-LD: the data model serialises with ``ld_id``/``ld_type``/``ld_context`` keys that
+On JSON-LD: the data model serializes with ``ld_id``/``ld_type``/``ld_context`` keys that
 are part of what makes the saved document a FAIR artifact, so :func:`save_data_model`
 keeps them by default. Stripping them is a presentation convenience — for slides and
 figures, where the context is noise — and has to be asked for explicitly.
@@ -64,7 +64,7 @@ def strip_json_ld(obj: Any) -> Any:
 def save_data_model(
     fid_array: "FidArray",
     measurement_id: str,
-    directory: str = "./data/models",
+    directory: str = ".",
     strip_ld: bool = False,
 ) -> Path:
     """Write the NMRPy data model of a FID array to JSON.
@@ -170,7 +170,7 @@ def print_measurement(
     print_model(enzml_doc.filter_measurements(id=measurement_id)[0], max_length=max_length)
 
 
-def summarise_measurement(
+def summarize_measurement(
     enzml_doc: "EnzymeMLDocument",
     measurement_id: str,
 ) -> None:
@@ -184,7 +184,7 @@ def summarise_measurement(
 
     Args:
         enzml_doc: The EnzymeML document to look the measurement up in.
-        measurement_id: ID of the measurement to summarise.
+        measurement_id: ID of the measurement to summarize.
 
     Returns:
         None. The summary is printed.
@@ -229,7 +229,7 @@ def set_concentrations(
     over from the preceding loop — so it checks the **last** FID only. Where the last
     spectrum carries fewer species than the first, the educt key is rejected even though
     every value is well formed. That is exactly the 33 eq case: the reaction is complete
-    before the fourth time point, so the late spectra have only the mesitylene peak
+    before the third time point, so the late spectra have only the mesitylene peak
     picked and their assigned species is ``["s5"]`` alone.
 
     This performs the setter's checks against *every* FID rather than the last one, and

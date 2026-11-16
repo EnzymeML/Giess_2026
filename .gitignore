@@ -208,3 +208,6 @@ __marimo__/
 
 # Results of the Scenario1 notebooks (data/output/ holds the shipped result)
 Scenario1/data/run/
+
+# PySCeS model files written by the Scenario2 fit notebook
+Scenario2/pysces_models/

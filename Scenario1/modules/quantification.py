@@ -82,7 +82,7 @@ def proton_count_for_range(lower: float, upper: float) -> int:
     documented in the notebooks and the proton counts used by
     :func:`modules.concentrations.calculate_c_from_integrals`:
 
-    - ~6.71 ppm       mesitylene/BINOL singlet, 3 protons
+    - ~6.71 ppm       mesitylene singlet, 3 protons
     - ~5.08-5.12 ppm  educt triplet, 1 proton (triplet-doublet-doublet assignment only)
     - ~3.0-3.2 ppm    educt doublets, 2 protons each
 
@@ -93,10 +93,10 @@ def proton_count_for_range(lower: float, upper: float) -> int:
     Returns:
         The proton count for the multiplet in that range.
     """
-    centre = 0.5 * (lower + upper)
-    if centre > 6.0:
+    center = 0.5 * (lower + upper)
+    if center > 6.0:
         return 3
-    if centre > 4.0:
+    if center > 4.0:
         return 1
     return 2
 
