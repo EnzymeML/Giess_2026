@@ -1,0 +1,1007 @@
+{
+  "@context": {
+    "enzml": "http://www.enzymeml.org/v2/",
+    "OBO": "http://purl.obolibrary.org/obo/",
+    "schema": "https://schema.org/",
+    "name": "schema:title",
+    "created": "schema:dateCreated",
+    "modified": "schema:dateModified",
+    "creators": "schema:creator",
+    "references": {
+      "@id": "schema:citation",
+      "@type": "@id"
+    }
+  },
+  "@id": "enzml:EnzymeMLDocument/793bfe30-db4d-43d7-9e5b-bf998e5ce8f3",
+  "@type": [
+    "enzml:EnzymeMLDocument"
+  ],
+  "name": "EW_100: Palladium-catalyzed ring closing reaction of Dimethyl 2-(3-methyl-2-butenyl)-2-(2-propynyl)malonate using 2, 5 and 33 equivalents of BINOL",
+  "version": "2",
+  "description": "m1: 5 mol % Pd loading vs. substrate, BINOL 2.56 eq (target: 2 eq); m2: 5 mol % Pd loading vs. substrate, BINOL 5.59 eq (target: 5 eq); m3: 5.49 mol % Pd loading vs. substrate, BINOL 27.96 eq (target: 33 eq)",
+  "created": "2025-05-27T16:27:40.186749",
+  "modified": "2026-08-12T13:00:29.911213",
+  "creators": [
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "given_name": "schema:givenName",
+        "family_name": "schema:familyName",
+        "mail": "schema:email"
+      },
+      "@id": "enzml:Creator/2c8e6334-1528-46d8-abed-4931e07ac4e9",
+      "@type": [
+        "enzml:Creator",
+        "schema:person"
+      ],
+      "given_name": "Erik",
+      "family_name": "Wimmer",
+      "mail": "erik.wimmer@itc.uni-stuttgart.de"
+    },
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "given_name": "schema:givenName",
+        "family_name": "schema:familyName",
+        "mail": "schema:email"
+      },
+      "@id": "enzml:Creator/e8d489cc-bb39-43aa-8327-be2e81e55994",
+      "@type": [
+        "enzml:Creator",
+        "schema:person"
+      ],
+      "given_name": "Torsten",
+      "family_name": "Giess",
+      "mail": "torsten.giess@ibtb.uni-stuttgart.de"
+    }
+  ],
+  "vessels": [
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        },
+        "name": "schema:name",
+        "volume": "OBO:OBI_0002139"
+      },
+      "@id": "enzml:Vessel/e9d15579-7772-49ab-8e8a-e7a33601d3ed",
+      "@type": [
+        "enzml:Vessel",
+        "OBO:OBI_0400081"
+      ],
+      "id": "v1",
+      "name": "NMR tube",
+      "volume": 0.6,
+      "unit": {
+        "id": null,
+        "name": "mlitre",
+        "base_units": [
+          {
+            "kind": "litre",
+            "exponent": 1,
+            "multiplier": null,
+            "scale": -3.0
+          }
+        ]
+      },
+      "constant": true
+    }
+  ],
+  "proteins": [],
+  "complexes": [],
+  "small_molecules": [
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        },
+        "name": "schema:name",
+        "vessel_id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        },
+        "references": {
+          "@id": "schema:citation",
+          "@type": "@id"
+        }
+      },
+      "@id": "enzml:SmallMolecule/fb1418a0-5021-4a1c-aa0e-b15a982b98c8",
+      "@type": [
+        "enzml:SmallMolecule"
+      ],
+      "id": "s1",
+      "name": "Dimethyl 2-(3-methyl-2-butenyl)-2-(2-propynyl)malonate",
+      "constant": false,
+      "vessel_id": "v1",
+      "canonical_smiles": "CC(=CCC(CC#C)(C(=O)OC)C(=O)OC)C",
+      "synonymous_names": [],
+      "references": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/11276454"
+      ]
+    },
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        },
+        "name": "schema:name",
+        "vessel_id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        },
+        "references": {
+          "@id": "schema:citation",
+          "@type": "@id"
+        }
+      },
+      "@id": "enzml:SmallMolecule/9068bea1-b4a8-4994-a254-90228d29b9d0",
+      "@type": [
+        "enzml:SmallMolecule"
+      ],
+      "id": "s3",
+      "name": "Bis(tricyclohexylphosphine)Palladium(0)",
+      "constant": true,
+      "vessel_id": "v1",
+      "canonical_smiles": "C1CCC(CC1)P(C2CCCCC2)C3CCCCC3.C1CCC(CC1)P(C2CCCCC2)C3CCCCC3.[Pd]",
+      "inchikey": "InChI=1S/2C18H33P.Pd/c2*1-4-10-16(11-5-1)19(17-12-6-2-7-13-17)18-14-8-3-9-15-18;/h2*16-18H,1-15H2;",
+      "synonymous_names": [],
+      "references": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/2734559"
+      ]
+    },
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        },
+        "name": "schema:name",
+        "vessel_id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        },
+        "references": {
+          "@id": "schema:citation",
+          "@type": "@id"
+        }
+      },
+      "@id": "enzml:SmallMolecule/54d597e3-08a6-48a2-a1ee-c7c146e0f51c",
+      "@type": [
+        "enzml:SmallMolecule"
+      ],
+      "id": "s4",
+      "name": "Binol",
+      "constant": true,
+      "vessel_id": "v1",
+      "canonical_smiles": "C1=CC=C2C(=C1)C=CC(=C2C3=C(C=CC4=CC=CC=C43)O)O",
+      "inchikey": "InChI=1S/C20H14O2/c21-17-11-9-13-5-1-3-7-15(13)19(17)20-16-8-4-2-6-14(16)10-12-18(20)22/h1-12,21-22H",
+      "synonymous_names": [],
+      "references": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/11762"
+      ]
+    }
+  ],
+  "reactions": [
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        }
+      },
+      "@id": "enzml:Reaction/ecbcb728-23b8-4c50-899d-9e85e7b6190a",
+      "@type": [
+        "enzml:Reaction"
+      ],
+      "id": "r1",
+      "name": "Ring closing reaction",
+      "reversible": false,
+      "kinetic_law": {
+        "@context": {
+          "enzml": "http://www.enzymeml.org/v2/",
+          "OBO": "http://purl.obolibrary.org/obo/",
+          "schema": "https://schema.org/",
+          "species_id": {
+            "@id": "schema:identifier",
+            "@type": "@id"
+          }
+        },
+        "@id": "enzml:Equation/d3ada349-80a8-4a4b-9344-3c68065019fb",
+        "@type": [
+          "enzml:Equation"
+        ],
+        "species_id": "s1",
+        "equation": "k_bkgrnd*s1 + 0.5699544576803497*k_cyc*s1*s3*s4/(0.5699544576803497*s4 + 1)",
+        "equation_type": "rateLaw",
+        "variables": [
+          {
+            "@context": {
+              "enzml": "http://www.enzymeml.org/v2/",
+              "OBO": "http://purl.obolibrary.org/obo/",
+              "schema": "https://schema.org/",
+              "id": {
+                "@id": "schema:identifier",
+                "@type": "@id"
+              }
+            },
+            "@id": "enzml:Variable/e97aa523-9738-4751-82f3-a3b97124584e",
+            "@type": [
+              "enzml:Variable"
+            ],
+            "id": "s1",
+            "name": "s1",
+            "symbol": "s1"
+          },
+          {
+            "@context": {
+              "enzml": "http://www.enzymeml.org/v2/",
+              "OBO": "http://purl.obolibrary.org/obo/",
+              "schema": "https://schema.org/",
+              "id": {
+                "@id": "schema:identifier",
+                "@type": "@id"
+              }
+            },
+            "@id": "enzml:Variable/2b94d209-c3a6-4d44-884a-7efa6890ae6f",
+            "@type": [
+              "enzml:Variable"
+            ],
+            "id": "s4",
+            "name": "s4",
+            "symbol": "s4"
+          },
+          {
+            "@context": {
+              "enzml": "http://www.enzymeml.org/v2/",
+              "OBO": "http://purl.obolibrary.org/obo/",
+              "schema": "https://schema.org/",
+              "id": {
+                "@id": "schema:identifier",
+                "@type": "@id"
+              }
+            },
+            "@id": "enzml:Variable/600ef765-7b5c-4c61-8a43-3ac6515e13ab",
+            "@type": [
+              "enzml:Variable"
+            ],
+            "id": "s3",
+            "name": "s3",
+            "symbol": "s3"
+          }
+        ]
+      },
+      "reactants": [
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@id": "schema:identifier",
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:ReactionElement/4b50c976-7abd-463f-afce-ca0c09bfca19",
+          "@type": [
+            "enzml:ReactionElement"
+          ],
+          "species_id": "s1",
+          "stoichiometry": 1.0
+        }
+      ],
+      "products": [
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@id": "schema:identifier",
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:ReactionElement/3f11c10f-e26c-4a21-8947-1896a7381f92",
+          "@type": [
+            "enzml:ReactionElement"
+          ],
+          "species_id": "s2",
+          "stoichiometry": 1.0
+        }
+      ],
+      "modifiers": [
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@id": "schema:identifier",
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:ModifierElement/1adc0b96-40a4-4ddd-b787-cd8ff5dcf1c7",
+          "@type": [
+            "enzml:ModifierElement"
+          ],
+          "species_id": "s3",
+          "role": "catalyst"
+        },
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@id": "schema:identifier",
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:ModifierElement/6e2c5de2-b2d8-467c-8345-18cd326b8289",
+          "@type": [
+            "enzml:ModifierElement"
+          ],
+          "species_id": "s4",
+          "role": "catalyst"
+        },
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@id": "schema:identifier",
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:ModifierElement/d4c0f6b8-ded4-4953-97ba-4de6777bf722",
+          "@type": [
+            "enzml:ModifierElement"
+          ],
+          "species_id": "s6",
+          "role": "solvent"
+        }
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        },
+        "group_id": {
+          "@type": "@id"
+        }
+      },
+      "@id": "enzml:Measurement/7e21d4d8-7e9d-4dfa-baf4-3472b0db24a8",
+      "@type": [
+        "enzml:Measurement"
+      ],
+      "id": "m1",
+      "name": "S-BINOL 2mg Pd(PCy3)2 2mg - C6D6 - 80C",
+      "species_data": [
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:MeasurementData/ebac8b61-6db2-4554-83b1-1384e5828407",
+          "@type": [
+            "enzml:MeasurementData"
+          ],
+          "species_id": "s1",
+          "prepared": 0.11986,
+          "initial": 0.1261736485600825,
+          "data_unit": {
+            "id": null,
+            "name": "mole / litre",
+            "base_units": [
+              {
+                "kind": "mole",
+                "exponent": 1,
+                "multiplier": null,
+                "scale": 1.0
+              },
+              {
+                "kind": "litre",
+                "exponent": -1,
+                "multiplier": null,
+                "scale": 1.0
+              }
+            ]
+          },
+          "data": [
+            0.1261736485600825,
+            0.07108817474055762,
+            0.0516896853720776,
+            0.03251309066922674,
+            0.01371224721417935,
+            0.0008579718084669261,
+            -0.0008507832587764108
+          ],
+          "time": [
+            0.0,
+            2.5,
+            3.5,
+            5.5,
+            9.0,
+            19.0,
+            40.0
+          ],
+          "time_unit": {
+            "id": "hours",
+            "name": "hours",
+            "base_units": [
+              {
+                "kind": "second",
+                "exponent": 1,
+                "multiplier": 3600.0,
+                "scale": 1.0
+              }
+            ]
+          },
+          "data_type": "concentration",
+          "is_simulated": false
+        },
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:MeasurementData/ee0ff411-f330-4a92-8868-4bf391c98c38",
+          "@type": [
+            "enzml:MeasurementData"
+          ],
+          "species_id": "s3",
+          "prepared": 0.005994,
+          "initial": 0.005994,
+          "data_unit": {
+            "id": null,
+            "name": "mole / litre",
+            "base_units": [
+              {
+                "kind": "mole",
+                "exponent": 1,
+                "multiplier": null,
+                "scale": 1.0
+              },
+              {
+                "kind": "litre",
+                "exponent": -1,
+                "multiplier": null,
+                "scale": 1.0
+              }
+            ]
+          },
+          "data": [],
+          "time": [],
+          "data_type": "concentration",
+          "is_simulated": false
+        },
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:MeasurementData/18830044-36d4-4a44-ae13-bdbd73c0e2bb",
+          "@type": [
+            "enzml:MeasurementData"
+          ],
+          "species_id": "s4",
+          "prepared": 0.01537,
+          "initial": 0.01537,
+          "data_unit": {
+            "id": null,
+            "name": "mole / litre",
+            "base_units": [
+              {
+                "kind": "mole",
+                "exponent": 1,
+                "multiplier": null,
+                "scale": 1.0
+              },
+              {
+                "kind": "litre",
+                "exponent": -1,
+                "multiplier": null,
+                "scale": 1.0
+              }
+            ]
+          },
+          "data": [],
+          "time": [],
+          "data_type": "concentration",
+          "is_simulated": false
+        }
+      ],
+      "ph": 7.0,
+      "temperature": 353.15,
+      "temperature_unit": {
+        "id": null,
+        "name": "kelvin",
+        "base_units": [
+          {
+            "kind": "kelvin",
+            "exponent": 1,
+            "multiplier": null,
+            "scale": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        },
+        "group_id": {
+          "@type": "@id"
+        }
+      },
+      "@id": "enzml:Measurement/fda63bcc-5a5a-4143-9cec-cd9d9544f80f",
+      "@type": [
+        "enzml:Measurement"
+      ],
+      "id": "m2",
+      "name": "S-BINOL 2mg Pd(PCy3)2 5mg - C6D6 - 80C",
+      "species_data": [
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:MeasurementData/212054a2-57a9-4eb2-83d0-9c7471ab0378",
+          "@type": [
+            "enzml:MeasurementData"
+          ],
+          "species_id": "s1",
+          "prepared": 0.11986,
+          "initial": 0.11862823512914271,
+          "data_unit": {
+            "id": null,
+            "name": "mole / litre",
+            "base_units": [
+              {
+                "kind": "mole",
+                "exponent": 1,
+                "multiplier": null,
+                "scale": 1.0
+              },
+              {
+                "kind": "litre",
+                "exponent": -1,
+                "multiplier": null,
+                "scale": 1.0
+              }
+            ]
+          },
+          "data": [
+            0.11862823512914271,
+            0.08247298863570841,
+            0.05266993421208282,
+            0.02921429025934847,
+            0.004147173240511668,
+            0.0009325472420154465,
+            0.001713855862063008,
+            0.001703696520188849,
+            0.001066593774242781
+          ],
+          "time": [
+            0.0,
+            0.8333333333333334,
+            3.83333333333333,
+            7.833333333333333,
+            14.333333333333334,
+            16.5833333333333,
+            21.3333333333333,
+            32.3333333333333,
+            39.0
+          ],
+          "time_unit": {
+            "id": "hours",
+            "name": "hours",
+            "base_units": [
+              {
+                "kind": "second",
+                "exponent": 1,
+                "multiplier": 3600.0,
+                "scale": 1.0
+              }
+            ]
+          },
+          "data_type": "concentration",
+          "is_simulated": false
+        },
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:MeasurementData/e7a76a7a-5e7e-4ee0-a559-152ee9a397e9",
+          "@type": [
+            "enzml:MeasurementData"
+          ],
+          "species_id": "s3",
+          "prepared": 0.005994,
+          "initial": 0.005994,
+          "data_unit": {
+            "id": null,
+            "name": "mole / litre",
+            "base_units": [
+              {
+                "kind": "mole",
+                "exponent": 1,
+                "multiplier": null,
+                "scale": 1.0
+              },
+              {
+                "kind": "litre",
+                "exponent": -1,
+                "multiplier": null,
+                "scale": 1.0
+              }
+            ]
+          },
+          "data": [],
+          "time": [],
+          "data_type": "concentration",
+          "is_simulated": false
+        },
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:MeasurementData/36e4c601-0cad-4ecc-b79d-24025d130528",
+          "@type": [
+            "enzml:MeasurementData"
+          ],
+          "species_id": "s4",
+          "prepared": 0.03353,
+          "initial": 0.03353,
+          "data_unit": {
+            "id": null,
+            "name": "mole / litre",
+            "base_units": [
+              {
+                "kind": "mole",
+                "exponent": 1,
+                "multiplier": null,
+                "scale": 1.0
+              },
+              {
+                "kind": "litre",
+                "exponent": -1,
+                "multiplier": null,
+                "scale": 1.0
+              }
+            ]
+          },
+          "data": [],
+          "time": [],
+          "data_type": "concentration",
+          "is_simulated": false
+        }
+      ],
+      "ph": 7.0,
+      "temperature": 353.15,
+      "temperature_unit": {
+        "id": null,
+        "name": "kelvin",
+        "base_units": [
+          {
+            "kind": "kelvin",
+            "exponent": 1,
+            "multiplier": null,
+            "scale": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        },
+        "group_id": {
+          "@type": "@id"
+        }
+      },
+      "@id": "enzml:Measurement/cde40d36-22b4-45e7-adb9-c8d1b169caa7",
+      "@type": [
+        "enzml:Measurement"
+      ],
+      "id": "m3",
+      "name": "S-BINOL 2mg Pd(PCy3)2 33mg - C6D6 - 80C",
+      "species_data": [
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:MeasurementData/92ed867b-6e91-4cdc-b072-804c08f69607",
+          "@type": [
+            "enzml:MeasurementData"
+          ],
+          "species_id": "s1",
+          "prepared": 0.12003,
+          "initial": 0.1352838525366324,
+          "data_unit": {
+            "id": null,
+            "name": "mole / litre",
+            "base_units": [
+              {
+                "kind": "mole",
+                "exponent": 1,
+                "multiplier": null,
+                "scale": 1.0
+              },
+              {
+                "kind": "litre",
+                "exponent": -1,
+                "multiplier": null,
+                "scale": 1.0
+              }
+            ]
+          },
+          "data": [
+            0.1301198525366324,
+            0.05808998485719159,
+            -2.0974065153001e-06,
+            -2.4984292222004e-06,
+            -2.8777673002998e-06,
+            -2.9987885408001e-06
+          ],
+          "time": [
+            0.0,
+            2.0,
+            8.0,
+            14.33,
+            14.33,
+            19.08
+          ],
+          "time_unit": {
+            "id": "hours",
+            "name": "hours",
+            "base_units": [
+              {
+                "kind": "second",
+                "exponent": 1,
+                "multiplier": 3600.0,
+                "scale": 1.0
+              }
+            ]
+          },
+          "data_type": "concentration",
+          "is_simulated": false
+        },
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:MeasurementData/56544ed0-38a0-4ebb-bf87-9e34b284f05b",
+          "@type": [
+            "enzml:MeasurementData"
+          ],
+          "species_id": "s3",
+          "prepared": 0.006594,
+          "initial": 0.006594,
+          "data_unit": {
+            "id": null,
+            "name": "mole / litre",
+            "base_units": [
+              {
+                "kind": "mole",
+                "exponent": 1,
+                "multiplier": null,
+                "scale": 1.0
+              },
+              {
+                "kind": "litre",
+                "exponent": -1,
+                "multiplier": null,
+                "scale": 1.0
+              }
+            ]
+          },
+          "data": [],
+          "time": [],
+          "data_type": "concentration",
+          "is_simulated": false
+        },
+        {
+          "@context": {
+            "enzml": "http://www.enzymeml.org/v2/",
+            "OBO": "http://purl.obolibrary.org/obo/",
+            "schema": "https://schema.org/",
+            "species_id": {
+              "@type": "@id"
+            }
+          },
+          "@id": "enzml:MeasurementData/c901df02-27f8-4c9a-b791-155c659835a1",
+          "@type": [
+            "enzml:MeasurementData"
+          ],
+          "species_id": "s4",
+          "prepared": 0.18441,
+          "initial": 0.18441,
+          "data_unit": {
+            "id": null,
+            "name": "mole / litre",
+            "base_units": [
+              {
+                "kind": "mole",
+                "exponent": 1,
+                "multiplier": null,
+                "scale": 1.0
+              },
+              {
+                "kind": "litre",
+                "exponent": -1,
+                "multiplier": null,
+                "scale": 1.0
+              }
+            ]
+          },
+          "data": [],
+          "time": [],
+          "data_type": "concentration",
+          "is_simulated": false
+        }
+      ],
+      "ph": 7.0,
+      "temperature": 353.15,
+      "temperature_unit": {
+        "id": null,
+        "name": "kelvin",
+        "base_units": [
+          {
+            "kind": "kelvin",
+            "exponent": 1,
+            "multiplier": null,
+            "scale": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "equations": [
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "species_id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        }
+      },
+      "@id": "enzml:Equation/e14a371c-178e-4b28-b17a-81436c33b985",
+      "@type": [
+        "enzml:Equation"
+      ],
+      "species_id": "s1",
+      "equation": "-k_bkgrnd*s1 - 0.5699544576803497*k_cyc*s1*s3*s4/(0.5699544576803497*s4 + 1)",
+      "equation_type": "ode",
+      "variables": []
+    }
+  ],
+  "parameters": [
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        }
+      },
+      "@id": "enzml:Parameter/011e97fd-7f9a-4b58-9f10-a98a143012b0",
+      "@type": [
+        "enzml:Parameter"
+      ],
+      "id": "k_cyc",
+      "name": "k_cyc",
+      "symbol": "k_cyc",
+      "value": 330.619140625,
+      "initial_value": 1000.0,
+      "upper_bound": 362.96893310546875,
+      "lower_bound": 289.9966125488281,
+      "fit": true,
+      "constant": true
+    },
+    {
+      "@context": {
+        "enzml": "http://www.enzymeml.org/v2/",
+        "OBO": "http://purl.obolibrary.org/obo/",
+        "schema": "https://schema.org/",
+        "id": {
+          "@id": "schema:identifier",
+          "@type": "@id"
+        }
+      },
+      "@id": "enzml:Parameter/1d47884b-5cd9-4b40-a7fe-733103cf2d65",
+      "@type": [
+        "enzml:Parameter"
+      ],
+      "id": "k_bkgrnd",
+      "name": "k_bkgrnd",
+      "symbol": "k_bkgrnd",
+      "value": 0.22101593017578125,
+      "initial_value": 0.09,
+      "upper_bound": 0.22941875457763672,
+      "lower_bound": 0.2140141725540161,
+      "fit": true,
+      "constant": true
+    }
+  ],
+  "references": []
+}
