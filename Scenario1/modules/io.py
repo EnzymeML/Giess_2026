@@ -108,6 +108,7 @@ def write_concentrations_csv(
     measurement_id: str,
     directory: str = ".",
     concentrations: dict[str, list[float]] = None,
+    enzymeml_document: "EnzymeMLDocument" = None,
 ) -> Path:
     """Write the time course and derived concentrations to CSV.
 
@@ -119,21 +120,38 @@ def write_concentrations_csv(
         directory: Directory to write into.
         concentrations: The concentrations to write. Defaults to ``None``, which reads
             them from ``fid_array.concentrations``.
+        enzymeml_document: If given, the ``s1`` time course is taken from this
+            document's measurement instead of from the FID array, so that it includes a
+            point at t = 0 added with ``FidArray.add_t0_to_enzymeml()``.
+            ``concentrations`` is then not used.
 
     Returns:
         The path written to.
 
     Raises:
         KeyError: If the concentrations hold no ``"s1"`` entry.
+        ValueError: If `enzymeml_document` holds no ``s1`` time course for the
+            measurement.
     """
-    if concentrations is None:
-        concentrations = fid_array.concentrations
-
     path = Path(directory) / f"{_measurement_name(fid_array, measurement_id)}_concentrations.csv"
 
+    if enzymeml_document is not None:
+        measurement = enzymeml_document.filter_measurements(id=measurement_id)[0]
+        datum = next(
+            (d for d in measurement.species_data if d.species_id == "s1" and d.data),
+            None,
+        )
+        if datum is None:
+            raise ValueError(f"No s1 time course in measurement {measurement_id!r}.")
+        times, values = list(datum.time), list(datum.data)
+    else:
+        if concentrations is None:
+            concentrations = fid_array.concentrations
+        times, values = fid_array.t, concentrations["s1"]
+
     df = pd.DataFrame()
-    df["t / h"] = fid_array.t
-    df["[s1] / M"] = concentrations["s1"]
+    df["t / h"] = times
+    df["[s1] / M"] = values
     df.to_csv(path, index=False)
 
     return path
