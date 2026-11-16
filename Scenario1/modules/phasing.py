@@ -1,14 +1,15 @@
-"""Manual, per-FID phase correction for arrays that automatic phasing cannot handle.
+"""Per-FID phase correction from recorded angles.
 
 :func:`nmrpy.data_objects.FidArray.phase_correct_fids` fits the zero- and first-order
-phase of every FID automatically, and is what the 2 eq and 5 eq datasets use. It does
-not converge usefully on the 33 eq array: the educt signals there fall close to the
-noise floor within the first few time points, leaving the fit with too little signal to
-key on, so each FID has to be phased by hand against angles read off
+phase of every FID automatically. It does not tell an upright spectrum from an inverted
+one, so angles taken from it may need 180° added to the zero order, as for the 2 eq and
+5 eq datasets. It does not converge usefully on the 33 eq array: the educt signals there
+fall close to the noise floor within the first few time points, leaving the fit with too
+little signal to key on, so each FID was phased by hand against angles read off
 :meth:`nmrpy.data_objects.Fid.phaser`.
 
-This module holds the helper that applies such hand-determined angles, so the notebooks
-carry the angles as data and not the machinery that applies them.
+This module holds the helper that applies recorded angles, so the notebooks carry the
+angles as data and not the machinery that applies them.
 """
 
 from __future__ import annotations
@@ -93,10 +94,10 @@ def apply_phase_angles(
     plot: bool = True,
     verbose: bool = False,
 ) -> None:
-    """Phase every FID of an array with its own pair of hand-determined angles.
+    """Phase every FID of an array with its own pair of recorded angles.
 
     Thin wrapper over :func:`manual_phaser` that walks the array and its angle lists
-    together, which is how the 33 eq dataset is phased.
+    together, which is how the analysis notebook phases every dataset.
 
     Args:
         fid_array: The FID array to phase. Modified in place.
