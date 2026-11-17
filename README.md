@@ -2,7 +2,8 @@
 
 # This repository accompanies the paper Giess 2026
 
-> "FAIR NMR: acquisition, processing, and modeling of time-resolved NMR data according to the FAIR principles"  
+> "FAIR NMR: Acquisition, Processing, and Modeling of Time-Resolved NMR Data According to the FAIR Principles"  
+> *Analytical Chemistry* (2026), DOI: [10.1021/acs.analchem.6c02376](https://doi.org/10.1021/acs.analchem.6c02376)
 
 The folder structure follows the structure of the paper.  
 Here you can find all data and Jupyter Notebooks.
@@ -26,6 +27,12 @@ Here you can find all data and Jupyter Notebooks.
 - `cascade_fit.ipynb`: kinetic modeling of the resulting time courses
 - `data/input/`: raw Varian FIDs and the EnzymeML document
 - `data/output/`: the EnzymeML document with the concentration time courses
+
+## Citation
+
+If you use the data or notebooks of this repository, please cite the paper:
+
+Gieß, T. R.; Matenchi, K.; Wimmer, E. J.; Range, J. P.; Estes, D.; Rohwer, J.; Pleiss, J. FAIR NMR: Acquisition, Processing, and Modeling of Time-Resolved NMR Data According to the FAIR Principles. *Anal. Chem.* **2026**. https://doi.org/10.1021/acs.analchem.6c02376
 
 ## Using the Jupyter Notebooks
 
